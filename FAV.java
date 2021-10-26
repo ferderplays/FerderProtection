@@ -14,21 +14,23 @@ public class FAV extends JavaTE {
             scanner.seeCode().from(file_selector);
         }
     }
-    void scanned() {}
-    for (va2 = 0) {
-        var2 = 0;
-        var3 = var1;
-        var4 = scanner;
+    void scanned() {
+        for (va2 = 0) {
+            var2 = 0;
+            var3 = var1;
+            var4 = scanner;
 
-        if (scanner.found(var3)) {
-            do {
-                String hulk this.displayTitle("malware found");
-                while (hulk = true) {
-                    do {
-                        this.displayCode();
+            if (scanner.found(var3)) {
+                do {
+                    String hulk this.displayTitle("malware found");
+                    while (hulk = true) {
+                        do {
+                            this.displayCode();
+                        }
                     }
                 }
             }
         }
     }
+
 }
